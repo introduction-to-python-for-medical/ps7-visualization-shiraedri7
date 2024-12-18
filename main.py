@@ -1,4 +1,4 @@
-fetch_openml(name='breast_cancer', version=1, as_frame=True)
+data = fetch_openml(name='diabetes', version=1, as_frame=True)
 print(data.DESCR)
 df = data.frame
 df.sample(5)
